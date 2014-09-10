@@ -1,13 +1,18 @@
+import java.util.Scanner;
 import java.util.LinkedList;
+import java.io.*;
 
-public class wordDictionary
+public class guessingGame
 {
-        public wordDictionary( )
+        wordDictionary words;
+
+        public guessingGame( )
         {
+
         }
-        
-        public wordDictionary( String file_name )
+
+        public static void main( String[] args )
         {
-                System.out.println( "Opening " + file_name + " as the dictionary." );
+                System.out.println( "I'm thinking of a word, can you guess what it is?" );
         }
 }
